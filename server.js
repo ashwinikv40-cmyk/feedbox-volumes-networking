@@ -58,5 +58,5 @@ app.post("/api/messages", async (req, res) => {
 });
 
 app.listen(port, "0.0.0.0", () => {
-  console.log(`FeedBox API listening on port ${port}`);
+  console.log(`FeedBox API restarted successfully on port ${port}`);
 });
